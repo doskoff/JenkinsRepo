@@ -3,9 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" name="a1qa/JenkinsTest">
         <classes>
-            <class name="Test1">
-
-            </class>
+            <class name="Test1"/>
         </classes>
     </test>
 </suite>
