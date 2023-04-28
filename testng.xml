@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" name="a1qa/JenkinsTest">
         <classes>
-            <class name="testMetods">
+            <class name="MainTest">
                 <methods>
                     <include name="testCases"/>
                 </methods>
