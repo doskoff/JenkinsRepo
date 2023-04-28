@@ -1,0 +1,16 @@
+{
+  "url": "https://jsonplaceholder.typicode.com",
+  "firstRequest": "/posts",
+  "firstCode": "200",
+  "userId":"1",
+  "thirdCode":"201",
+  "secondRequest":"/posts/99",
+  "thirdRequest":"/posts/150",
+  "fourthRequest":"/posts",
+  "secondCode": "404",
+  "fifthRequest":"/users",
+  "userIdSecond": "5",
+  "sixRequest": "/users/5",
+  "userIdFirst": "10",
+  "id": "99"
+}
