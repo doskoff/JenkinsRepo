@@ -82,9 +82,6 @@
   </plugins>
   </build>
   <repositories>
-    <repository>
-      <id>aquality-repository</id>
-      <url>https://github.com/aquality-automation/aquality-selenium-maven-repository/raw/main/releases</url>
-    </repository>
+
   </repositories>
 </project>
