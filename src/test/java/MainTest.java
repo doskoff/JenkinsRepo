@@ -1,6 +1,5 @@
 import aquality.selenium.browser.AqualityServices;
 import aquality.selenium.core.logging.Logger;
-import com.google.gson.Gson;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -19,10 +18,9 @@ import static io.restassured.RestAssured.given;
 
 public class MainTest {
     Response response;
-    private static Post expectedPost = new Post();
+    private static final Post expectedPost = new Post();
     UserForId expectedUserForIdFive = new UserForId();
     Logger logger = AqualityServices.getLogger();
-    ;
 
     @Test
     public void testCases() {
