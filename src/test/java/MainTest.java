@@ -24,6 +24,7 @@ public class MainTest {
 
     @Test
     public void testCases() {
+        //System.setProperty("log4j.properties", "src/main/resources/log4j.properties");
         //First case
         logger.info("FIRST STEP");
         RestAssured.baseURI = JsonReader.getUrl();
@@ -100,6 +101,6 @@ public class MainTest {
         logger.info("Actual user is created");
         Assert.assertEquals(expectedUserForIdFive, actual1,"User data not matches with user data in the previous step.");
         logger.info("User data matches with user data in the previous step.");
-        System.out.println("Hellllooooo");
+
     }
 }
